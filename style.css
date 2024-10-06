@@ -1,3 +1,4 @@
+/*-------------------- CSS RESET ---------------------------------------------------*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,5 +43,28 @@ table {
 	border-spacing: 0;
 }
 
+/* -------------------- IMPORTED FONTS -------------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
 
+/* -------------------- ROOT VARIABLES --------------------------------------- */
+
+
+/* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------- MEDIA QUERY (medium) --------------------------------*/
+
+
+/*-------------------- MEDIA QUERY (large) ------------------------------------*/
+
+
+/*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
