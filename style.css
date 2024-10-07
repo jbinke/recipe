@@ -120,6 +120,12 @@ nav{
 	font-family: Montserrat, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: 400;
+	display: grid;
+}
+
+nav ul{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
 }
 
 input{
@@ -144,6 +150,10 @@ dt{
 	justify-content: center;
 }
 
+.StTaco img{
+	width: 414px;
+	height: auto;
+}
 
 
 
