@@ -78,6 +78,57 @@ h3{
 	font-size: 25px;
 }
 
+nav a{
+	font-family: Bebas Neue, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.connect figcaption{
+	font-family: Bebas Neue, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+footer{
+	font-family:Bebas Neue, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+p{
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+dd{
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+li{
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+nav{
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+input{
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+dt{
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+
 
 
 
