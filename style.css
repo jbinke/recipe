@@ -150,9 +150,18 @@ dt{
 
 
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
-
-
+@media screen and (min-width:768px){
+    body {
+        min-width: 768px;
+        display: grid;
+    }
+}
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
-
+@media screen and (min-width:1280px){
+    body {
+        min-width: 1280px;
+        display: grid;
+    }
+}
 
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
