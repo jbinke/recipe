@@ -47,11 +47,22 @@ table {
 }
 
 /* -------------------- ROOT VARIABLES --------------------------------------- */
+:root{
+	font-family: Bebas Neue, Helvetica, sans-serif;
+	font-family: Montserrat, Helvetica, sans-serif;
+	--black: #0D0D0D;
+	--white: #F2F2F2;
+	--teal: #7ABFBF;
+	--lightblue: rgba(122,191,191,.5);
+	--orange: #EB5428;
 
+}
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 
-
+* {
+    box-sizing: border-box;
+  }
 
 
 
