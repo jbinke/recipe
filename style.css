@@ -63,6 +63,10 @@ table {
     box-sizing: border-box;
   }
 
+body{
+	display: grid;
+}
+
 h1{
 	font-family: Bebas Neue, Helvetica, sans-serif;
 	font-size: 40px;
@@ -131,10 +135,12 @@ dt{
 
 .search{
 	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
+.mainNav{
+	display: grid;
+	justify-content: center;
+}
 
 
 
