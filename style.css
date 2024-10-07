@@ -59,10 +59,24 @@ table {
 }
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
-
 * {
     box-sizing: border-box;
   }
+
+h1{
+	font-family: Bebas Neue, Helvetica, sans-serif;
+	font-size: 40px;
+}
+
+h2{
+	font-family: Bebas Neue, Helvetica, sans-serif;
+	font-size: 30px;
+}
+
+h3{
+	font-family: Bebas Neue, Helvetica, sans-serif;
+	font-size: 25px;
+}
 
 
 
