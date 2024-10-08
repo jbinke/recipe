@@ -81,6 +81,10 @@ h3{
 	font-size: 25px;
 }
 
+header p{
+	padding: 10px 10px 12px 8px;
+}
+
 nav a{
 	font-family: Bebas Neue, Helvetica, sans-serif;
 	font-size: 20px;
@@ -89,6 +93,16 @@ nav a{
 nav span{
 	font-family: Bebas Neue, Helvetica, sans-serif;
 	font-size: 20px;
+}
+
+.details dl{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.details h2{
+	display: flex;
+	justify-content: center;
 }
 
 .social li{
