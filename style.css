@@ -142,6 +142,17 @@ menu{
 	grid-template-columns: auto auto auto auto;
 }
 
+menu li{
+	list-style-type: none;
+	margin-top: 130px;
+	margin-bottom: 8px;
+}
+
+form{
+	display: flex;
+	justify-content: center;
+	transform: translateY(-4565px);
+}
 
 
 
