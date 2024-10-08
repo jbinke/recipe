@@ -66,6 +66,9 @@ table {
 h1{
 	font-family: Bebas Neue, Helvetica, sans-serif;
 	font-size: 40px;
+	display: flex;
+	margin-top: 100px;
+	justify-content: center;
 }
 
 h2{
@@ -153,7 +156,7 @@ form{
 	display: flex;
 	position: relative;
 	justify-content: center;
-	transform: translateY(-4565px);
+	/* transform: translateY(-4565px); */
 	border: 2px var(--orange);
 }
 
