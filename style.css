@@ -88,7 +88,17 @@ nav a{
 	font-size: 20px;
 }
 
-.connect figcaption{
+nav span{
+	font-family: Bebas Neue, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+menu li{
+	font-family: Bebas Neue, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.social li{
 	font-family: Bebas Neue, Helvetica, sans-serif;
 	font-size: 20px;
 }
@@ -120,12 +130,6 @@ nav{
 	font-family: Montserrat, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	display: grid;
-}
-
-nav ul{
-	display: grid;
-	grid-template-columns: auto auto auto auto;
 }
 
 input{
@@ -138,21 +142,6 @@ dt{
 	font-family: Montserrat, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
-}
-
-.search{
-	display: flex;
-	justify-content: center;
-}
-
-.mainNav{
-	display: grid;
-	justify-content: center;
-}
-
-.StTaco img{
-	width: 414px;
-	height: auto;
 }
 
 /*-------- css for menu --------*/
