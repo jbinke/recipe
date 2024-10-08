@@ -67,7 +67,7 @@ h1{
 	font-family: Bebas Neue, Helvetica, sans-serif;
 	font-size: 40px;
 	display: flex;
-	margin-top: 100px;
+	margin-top: 170px;
 	justify-content: center;
 }
 
@@ -87,11 +87,6 @@ nav a{
 }
 
 nav span{
-	font-family: Bebas Neue, Helvetica, sans-serif;
-	font-size: 20px;
-}
-
-menu li{
 	font-family: Bebas Neue, Helvetica, sans-serif;
 	font-size: 20px;
 }
@@ -147,16 +142,17 @@ menu{
 }
 
 menu li{
+	font-family: Bebas Neue, Helvetica, sans-serif;
+	font-size: 20px;
 	list-style-type: none;
-	margin-top: 130px;
+	margin-top: 30px;
 	margin-bottom: 8px;
 }
 
 form{
 	display: flex;
-	position: relative;
 	justify-content: center;
-	/* transform: translateY(-4565px); */
+	transform: translateY(-4645px);
 	border: 2px var(--orange);
 }
 
