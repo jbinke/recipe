@@ -125,6 +125,7 @@ input{
 	font-family: Montserrat, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: 400;
+	width: 245px;
 }
 
 dt{
@@ -150,8 +151,10 @@ menu li{
 
 form{
 	display: flex;
+	position: relative;
 	justify-content: center;
 	transform: translateY(-4565px);
+	border: 2px var(--orange);
 }
 
 
