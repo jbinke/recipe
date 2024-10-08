@@ -137,16 +137,20 @@ dt{
 }
 
 menu{
-	display: grid;
-	grid-template-columns: auto auto auto auto;
+	display: flex;
+	justify-content: space-evenly;
 }
 
 menu li{
 	font-family: Bebas Neue, Helvetica, sans-serif;
 	font-size: 20px;
 	list-style-type: none;
-	margin-top: 30px;
 	margin-bottom: 8px;
+	padding: 10px;
+}
+
+li a{
+	text-decoration: none;
 }
 
 form{
