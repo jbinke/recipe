@@ -93,11 +93,6 @@ menu li{
 	font-size: 20px;
 }
 
-menu{
-	display: flex;
-	flex-direction: row;
-}
-
 .social li{
 	font-family: Bebas Neue, Helvetica, sans-serif;
 	font-size: 20px;
@@ -142,6 +137,10 @@ dt{
 	width: 100%;
 }
 
+menu{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
 
 
 
