@@ -93,6 +93,11 @@ menu li{
 	font-size: 20px;
 }
 
+menu{
+	display: flex;
+	flex-direction: row;
+}
+
 .social li{
 	font-family: Bebas Neue, Helvetica, sans-serif;
 	font-size: 20px;
@@ -116,12 +121,6 @@ dd{
 }
 
 li{
-	font-family: Montserrat, Helvetica, sans-serif;
-	font-size: 16px;
-	font-weight: 400;
-}
-
-nav{
 	font-family: Montserrat, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: 400;
