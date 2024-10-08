@@ -63,11 +63,6 @@ table {
     box-sizing: border-box;
   }
 
-body{
-	display: grid;
-	width: 414px;
-}
-
 h1{
 	font-family: Bebas Neue, Helvetica, sans-serif;
 	font-size: 40px;
@@ -143,6 +138,16 @@ dt{
 	font-size: 16px;
 	font-weight: bold;
 }
+
+#StTaco{
+	width: 100%;
+}
+
+
+
+
+
+
 
 /*-------- css for menu --------*/
 nav {
