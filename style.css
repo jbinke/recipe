@@ -147,6 +147,7 @@ nav span{
 aside{
 	background-color: var(--teal);
 	display: grid;
+	grid-template-columns: auto;
 }
 
 .side-dishes h2{
@@ -213,6 +214,7 @@ menu{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	align-items: center;
 }
 
 menu li{
@@ -353,6 +355,15 @@ nav h2 {
         min-width: 768px;
         display: grid;
     }
+
+	menu{
+		display: flex;
+	}
+
+	aside{
+		display: grid;
+		grid-template-columns: auto auto;
+	}
 }
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 @media screen and (min-width:1280px){
