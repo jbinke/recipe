@@ -160,6 +160,10 @@ footer{
 	font-size: 20px;
 }
 
+footer h2{
+	display: none;
+}
+
 p{
 	font-family: Montserrat, Helvetica, sans-serif;
 	font-size: 16px;
@@ -219,8 +223,26 @@ form{
 	border: 2px var(--orange);
 }
 
+.social ul{
+	display: flex;
+	justify-content: space-evenly;
+}
 
+.social li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #EB5428;
+}
 
+.good-eats{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.good-eats h3{
+	display: none;
+}
 
 
 /*-------- css for menu --------*/
