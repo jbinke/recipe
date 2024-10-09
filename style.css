@@ -219,7 +219,7 @@ li a{
 form{
 	display: flex;
 	justify-content: center;
-	transform: translateY(-4645px);
+	/* transform: translateY(-4645px); */
 	border: 2px var(--orange);
 }
 
@@ -244,6 +244,17 @@ form{
 	display: none;
 }
 
+.good-eats p{
+	font-family: Bebas Neue, Helvetica, sans-serif;
+	text-transform: capitalize;
+	align-self: center;
+}
+
+.good-eats img{
+	width: 220px;
+	align-self: center;
+	margin: 10px;
+}
 
 /*-------- css for menu --------*/
 nav {
