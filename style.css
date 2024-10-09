@@ -148,6 +148,11 @@ aside{
 
 .mexRice{
 	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.mexRice img{
+	width: 110px;
 }
 
 .social li{
