@@ -61,7 +61,11 @@ table {
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 * {
     box-sizing: border-box;
-  }
+}
+
+body{
+	min-width: 414px;
+}
 
 h1{
 	font-family: Bebas Neue, Helvetica, sans-serif;
