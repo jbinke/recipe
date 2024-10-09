@@ -98,11 +98,19 @@ nav span{
 .details dl{
 	display: grid;
 	grid-template-columns: auto auto;
+	padding: 5px 2px 7px 5px;
+	width: 230px;
 }
 
 .details h2{
 	display: flex;
 	justify-content: center;
+}
+
+.ingredients h2{
+	display: flex;
+	justify-content: center;
+	margin: 10px 0px 15px;
 }
 
 .social li{
