@@ -227,7 +227,8 @@ form{
 	justify-content: center;
 	position: absolute;
 	border: 2px var(--orange);
-	
+	top: 100px;
+	right: 62px;
 }
 
 .social ul{
