@@ -146,12 +146,7 @@ aside{
 	padding: 10px 0px 25px;
 }
 
-.mexRice{
-	display: grid;
-	grid-template-columns: auto auto;
-}
-
-.mexRice img{
+.side-dishes img{
 	width: 110px;
 }
 
