@@ -113,6 +113,19 @@ nav span{
 	margin: 10px 0px 15px;
 }
 
+.ingredients ul{
+	display: grid;
+}
+
+.ingredients li{
+	padding: 10px;
+}
+
+.directions h2{
+	display: flex;
+	justify-content: center;
+}
+
 .social li{
 	font-family: Bebas Neue, Helvetica, sans-serif;
 	font-size: 20px;
