@@ -211,13 +211,30 @@ dt{
 
 menu{
 	display: flex;
-	justify-content: space-evenly;
+	flex-direction: row;
+	justify-content: center;
 }
 
 menu li{
 	font-family: Bebas Neue, Helvetica, sans-serif;
 	font-size: 20px;
 	list-style-type: none;
+}
+
+#save{
+	flex: 1;
+}
+
+#share{
+	flex: 2;
+}
+
+#print{
+	flex: 3;
+}
+
+#jtr{
+	flex: 4;
 }
 
 li a{
