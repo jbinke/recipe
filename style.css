@@ -126,6 +126,30 @@ nav span{
 	justify-content: center;
 }
 
+.directions ol{
+	display: grid;
+	margin-top: 18px;
+}
+
+.directions li{
+	padding: 10px;
+}
+
+aside{
+	background-color: var(--teal);
+	display: grid;
+}
+
+.side-dishes h2{
+	display: flex;
+	justify-content: center;
+	padding: 10px 0px 25px;
+}
+
+.mexRice{
+	display: grid;
+}
+
 .social li{
 	font-family: Bebas Neue, Helvetica, sans-serif;
 	font-size: 20px;
