@@ -171,6 +171,22 @@ aside img{
 
 .mex-rice{
 	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.salsa{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.guac{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.tortillas{
+	display: grid;
+	grid-template-columns: auto auto;
 }
 
 aside a{
