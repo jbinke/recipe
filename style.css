@@ -154,12 +154,23 @@ aside{
 	background-color: var(--teal);
 	display: grid;
 	grid-template-columns: auto;
-	padding: 16px;
+	padding: 15px;
 }
 
 aside h2{
 	display: flex;
 	justify-content: center;
+	margin-bottom: 20px;
+	margin-top: -4px;
+}
+
+aside img{
+	max-width: 30%;
+	height: auto;
+}
+
+.mex-rice{
+	display: grid;
 }
 
 .social li{
