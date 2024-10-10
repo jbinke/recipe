@@ -145,6 +145,8 @@ nav span{
 
 .directions li{
 	padding: 10px;
+	list-style-type: decimal;
+	list-style-position: inside;
 }
 
 aside{
