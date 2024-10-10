@@ -153,6 +153,8 @@ nav span{
 aside{
 	background-color: var(--teal);
 	padding: 15px;
+	display: grid;
+	grid-template-columns: auto;
 }
 
 aside h2{
@@ -181,11 +183,6 @@ aside h2{
 	display: grid;
 	grid-template-columns: auto auto;
 }
-
-aside a{
-	text-decoration: none;
-}
-
 
 .social li{
 	font-family: Bebas Neue, Helvetica, sans-serif;
