@@ -92,6 +92,7 @@ header{
 
 header p{
 	padding: 10px 10px 12px 8px;
+	line-height: 20px;
 }
 
 nav a{
@@ -128,6 +129,8 @@ nav span{
 
 .ingredients li{
 	padding: 10px;
+	list-style-type: square;
+	list-style-position: inside;
 }
 
 .directions h2{
@@ -148,16 +151,6 @@ aside{
 	background-color: var(--teal);
 	display: grid;
 	grid-template-columns: auto;
-}
-
-.side-dishes h2{
-	display: flex;
-	justify-content: center;
-	padding: 10px 0px 25px;
-}
-
-.side-dishes img{
-	width: 110px;
 }
 
 .social li{
