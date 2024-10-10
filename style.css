@@ -141,18 +141,25 @@ nav span{
 .directions ol{
 	display: grid;
 	margin-top: 18px;
+	padding-left: 22px;
 }
 
 .directions li{
 	padding: 10px;
 	list-style-type: decimal;
-	list-style-position: inside;
+	line-height: 22px;
 }
 
 aside{
 	background-color: var(--teal);
 	display: grid;
 	grid-template-columns: auto;
+	padding: 16px;
+}
+
+aside h2{
+	display: flex;
+	justify-content: center;
 }
 
 .social li{
