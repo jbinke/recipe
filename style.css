@@ -165,7 +165,7 @@ aside h2{
 }
 
 aside img{
-	max-width: 30%;
+	max-width: 50%;
 	height: auto;
 }
 
@@ -179,7 +179,7 @@ aside img{
 	grid-template-columns: auto auto;
 }
 
-.guac{
+.guacamole{
 	display: grid;
 	grid-template-columns: auto auto;
 }
