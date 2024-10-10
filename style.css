@@ -164,8 +164,21 @@ aside h2{
 	margin-top: -4px;
 }
 
+.side-text{
+	position: relative;
+	right: 40px;
+}
+
+.side-text a{
+	text-decoration: none;
+}
+
 .side-dishes img{
 	width: 60%;
+}
+
+.side-dishes{
+	display: grid;
 }
 
 .mex-rice{
@@ -182,6 +195,11 @@ aside h2{
 	display: grid;
 	grid-template-columns: auto auto;
 }
+
+/* .side-dishes .guacamole .side-text{
+	display: grid;
+	width: 223px;
+} */
 
 .tortillas{
 	display: grid;
