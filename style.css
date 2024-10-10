@@ -173,6 +173,10 @@ aside img{
 	display: grid;
 }
 
+aside a{
+	text-decoration: none;
+}
+
 .social li{
 	font-family: Bebas Neue, Helvetica, sans-serif;
 	font-size: 20px;
