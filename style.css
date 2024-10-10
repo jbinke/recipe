@@ -382,13 +382,35 @@ nav h2 {
     }
 
 	menu{
-		display: flex;
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		justify-content: space-evenly;
 	}
 
 	aside{
 		display: grid;
 		grid-template-columns: auto auto;
 	}
+
+	form{
+		top: 15px;
+		right: 60px;
+	}
+
+	h1{
+		justify-content: flex-start;
+		padding-left: 10px;
+	}
+
+	h1, menu{
+		backdrop-filter: blur(4px);
+		z-index: 1;
+	}
+
+	#StTaco {
+		top: 211px;
+		width: 100%;
+		position: absolute;}
 }
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 @media screen and (min-width:1280px){
