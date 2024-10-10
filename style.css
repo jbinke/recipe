@@ -435,6 +435,10 @@ nav h2 {
 		flex-direction: row-reverse;
 		justify-content: space-around;
 	}
+
+	nav{
+		position: absolute;
+	}
 }
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 @media screen and (min-width:1280px){
