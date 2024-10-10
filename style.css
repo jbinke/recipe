@@ -152,8 +152,6 @@ nav span{
 
 aside{
 	background-color: var(--teal);
-	display: grid;
-	grid-template-columns: auto;
 	padding: 15px;
 }
 
@@ -162,11 +160,6 @@ aside h2{
 	justify-content: center;
 	margin-bottom: 20px;
 	margin-top: -4px;
-}
-
-aside img{
-	max-width: 50%;
-	height: auto;
 }
 
 .mex-rice{
