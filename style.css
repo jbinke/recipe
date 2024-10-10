@@ -388,11 +388,6 @@ nav h2 {
 		height: 150px;
 	}
 
-	aside{
-		display: grid;
-		grid-template-columns: auto auto;
-	}
-
 	form{
 		top: 15px;
 		right: 60px;
@@ -423,6 +418,22 @@ nav h2 {
 		justify-content: center;
 		position: relative;
 		bottom: 110px;
+	}
+
+	.ing-dir{
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+
+	.side-dishes{
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+
+	footer{
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-around;
 	}
 }
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
