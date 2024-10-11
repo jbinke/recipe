@@ -633,3 +633,9 @@ nav h2 {
 	}
 	
 }
+
+@media print{
+	body{
+		background-color: #ffffff;
+	}
+}
