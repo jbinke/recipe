@@ -582,4 +582,30 @@ nav h2 {
 		display: grid;
 		grid-template-columns: auto;
 	}
+
+	.side-text{
+		position: relative;
+		right: 40px;
+	}
+
+	footer{
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+	.social {
+        display: grid;
+        align-items: start;
+    }
+
+	.social ul {
+        display: grid;
+        margin: 20px 10px 20px 10px;
+        grid-template-columns: auto auto auto auto;
+        column-gap: 80px;}
+
+	.good-eats{
+		display: flex;
+		flex-direction: row-reverse;
+	}
 }
