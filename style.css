@@ -545,4 +545,41 @@ nav h2 {
 		position: relative;
 		bottom: 98px;
 	}
+
+	.side-dishes{
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+	}
+	
+	.side-text a{
+		text-decoration: none;
+	}
+	
+	.side-dishes img{
+		width: 80%;
+	}
+	
+	.side-dishes{
+		display: grid;
+	}
+	
+	.mex-rice{
+		display: grid;
+		grid-template-columns: auto;
+	}
+	
+	.salsa{
+		display: grid;
+		grid-template-columns: auto;
+	}
+	
+	.guacamole{
+		display: grid;
+		grid-template-columns: auto;
+	}
+
+	.tortillas{
+		display: grid;
+		grid-template-columns: auto;
+	}
 }
