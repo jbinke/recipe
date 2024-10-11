@@ -637,5 +637,19 @@ nav h2 {
 @media print{
 	body{
 		background-color: #ffffff;
+		margin: 0.5in;
+		font-family: sans-serif;
+	}
+
+	nav, menu, form{
+		display: none;
+	}
+
+	img{
+		display: none;
+	}
+
+	aside{
+		background-color: #ffffff;
 	}
 }
