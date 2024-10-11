@@ -614,7 +614,7 @@ nav h2 {
 	}
 	header p{
 		padding: 10px 10px 12px 8px;
-		line-height: 20px;
+		line-height: 32px;
 		position: relative;
 		display: grid;
 		grid-column: 3;
@@ -629,7 +629,7 @@ nav h2 {
 	#p2{
 		display: grid;
 		position: relative;
-		top: -680px;
+		top: -648px;
 	}
 	
 }
