@@ -481,37 +481,68 @@ nav h2 {
         min-width: 1280px;
         display: grid;
     }
-	/* form{
+	form{
 		display: grid;
 		grid-template-columns: auto auto;
 		position: absolute;
 		top: 150px;
-	} */
+	}
 
 	nav{
 		width: 100%;
 	}
 
-	/* header{
+	header{
 		display: grid;
-	} */
+	}
 
-	/* menu{
+	menu{
 		display: grid;
-		grid-template-columns: auto;
+		grid-template-columns: 200px;
 		justify-content: start;
-		width: 150px;
 		background-color: var(--white);
-	} */
+		justify-items: center;
+		margin-top: 40px;
+	}
 
-	/* h1{
+
+	h1{
 		display: grid;
 		justify-content: center;
 		background-color: rgba(255, 255, 255, 0);
-	} */
+	}
 
-	/* .head{
+	.head{
 		display: grid;
-		grid-template-columns: auto auto auto;
-	} */
+		grid-template-columns: 200px 500px 580px;
+	}
+
+	#StTaco{
+		position: static;
+	}
+
+	.details{
+		background-color: var(--black);
+		color: var(--teal);
+		display: grid;
+	}
+
+	.detail-li{
+		display: grid;
+		grid-template-columns: auto auto auto auto auto;
+		margin-top: 20px;
+	}
+
+	.details dl{
+		display: grid;
+		grid-template-columns: auto;
+		justify-items: center;
+	}
+
+	.ing-dir{
+		display: grid;
+		grid-template-columns: auto auto;
+		position: relative;
+		bottom: 98px;
+	}
 }
